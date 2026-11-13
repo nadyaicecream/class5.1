@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eaf4ff">
+  <meta name="description" content="Welcome to Class 5.1 — One Class, One Story, Nineteen Memories.">
+  <meta property="og:title" content="Class 5.1 — Our Little Universe">
+  <meta property="og:description" content="A little digital home for our big class memories.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <title>Class 5.1 — Our Little Universe</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky-decor decor-one">✦</div><div class="sky-decor decor-two">✧</div><div class="sky-decor decor-three">☁</div>
+  <div class="entry-screen" id="entryScreen">
+    <div class="entry-card">
+      <div class="entry-cloud">☁️</div>
+      <span class="eyebrow">A LITTLE PLACE FOR OUR MEMORIES</span>
+      <h1>Welcome to<br><span>Class 5.1</span></h1>
+      <p>One Class, One Story, Nineteen Memories.</p>
+      <button class="btn btn-primary enter-btn" id="enterBtn">ENTER CLASS 5.1 🎵</button>
+      <small>Tap to enter our little universe</small>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Class 5.1 home"><span class="brand-mark">5.1</span><span>our little<br><b>universe</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#members">Our Class</a>
+      <a class="nav-link" href="#schedule">Schedule</a>
+      <a class="nav-link" href="#memories">Memories</a>
+      <a class="nav-link" href="#birthday">Birthday</a>
+      <a class="nav-link" href="#guestbook">Guestbook</a>
+    </nav>
+    <div class="header-chip"><span class="pulse"></span> Class 5.1</div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">HELLO, DEAR CLASSMATES ✦</span>
+        <h1>Welcome to<br><span>Class 5.1</span><span class="tiny-heart">♡</span></h1>
+        <p class="hero-slogan" id="slogan">One Class, One Story, Nineteen Memories.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#members">Explore Our Class <span>↗</span></a><a class="text-link" href="#memories">See our memories →</a></div>
+        <div class="hero-stats">
+          <div class="stat-card"><span class="stat-icon">◷</span><div><strong id="liveClock">00:00:00</strong><small id="liveDate">Loading date...</small></div></div>
+          <div class="stat-card"><span class="stat-icon">✧</span><div><strong id="countdown">—</strong><small id="countdownLabel">Class countdown</small></div></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-cloud cloud-a"></div><div class="art-cloud cloud-b"></div>
+        <div class="art-label">♡ our happy little place ♡</div>
+        <img src="assets/class-memory-02.webp" alt="Foto kebersamaan siswi-siswi kelas 5.1 di ruang kelas" class="class-art class-photo">
+        <span class="floating-star star-a">✦</span><span class="floating-star star-b">✧</span><span class="floating-star star-c">♡</span>
+      </div>
+    </section>
+
+    <section class="info-strip section-wrap">
+      <article class="soft-card quote-card"><div class="section-icon">“</div><div><span class="mini-label">A LITTLE REMINDER</span><p id="dailyQuote">Good things take time, and we're doing great together.</p></div><button class="icon-btn" id="newQuote" aria-label="Kutipan baru">↻</button></article>
+      <article class="soft-card announcement-card"><div class="section-icon">✉</div><div><span class="mini-label">CLASS ANNOUNCEMENT</span><p id="announcement">Jangan lupa membawa alat tulis lengkap dan menjaga kebersihan kelas, ya!</p></div></article>
+    </section>
+
+    <section class="section-wrap section-block" id="members">
+      <div class="section-heading"><div><span class="eyebrow">THE PEOPLE WHO MAKE IT SPECIAL</span><h2>Meet Our <span>Classmates</span></h2><p>Every person has a story. Let's get to know each other!</p></div><span class="heading-doodle">♡ ୨୧</span></div>
+      <div class="member-tools"><label class="search-box"><span>⌕</span><input id="memberSearch" type="search" placeholder="Cari nama teman..." aria-label="Cari anggota"></label><select id="memberSort" aria-label="Urutkan anggota"><option value="number">Nomor absen</option><option value="az">Nama A–Z</option></select><span class="result-count" id="memberCount"></span></div>
+      <div class="member-grid" id="memberGrid"></div>
+      <p class="small-note">Info profil masih berupa template. Klik kartu untuk mengisi atau melihat detail anggota.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="schedule">
+      <div class="section-heading"><div><span class="eyebrow">LET'S KEEP OUR CLASS SPARKLING</span><h2>Class Cleaning <span>Schedule</span></h2><p>Jadwal piket kelas 5.1 — teamwork makes the dream work!</p></div><span class="heading-doodle">🧹 ✧</span></div>
+      <div class="schedule-grid" id="cleaningGrid"></div>
+      <div class="section-heading lesson-heading"><div><span class="eyebrow">STUDY PLAN</span><h2>Jadwal <span>Pelajaran</span></h2><p>Our weekly class timetable.</p></div><span class="heading-doodle">📚</span></div>
+      <div class="lesson-grid" id="lessonGrid"></div>
+    </section>
+
+    <section class="memories-section" id="memories">
+      <div class="section-wrap section-block">
+        <div class="section-heading"><div><span class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</span><h2>Class <span>Memories</span></h2><p>Every picture holds a piece of our story.</p></div><span class="heading-doodle">📸 ♡</span></div>
+        <div class="memory-categories" id="memoryCategories"></div>
+        <div class="memory-upload soft-card"><div><b>Make a new memory</b><p>Tambahkan foto kenangan kelas dari perangkatmu.</p></div><label class="btn btn-outline upload-btn">＋ Add photos<input type="file" id="memoryUpload" accept="image/*,video/*" multiple hidden></label></div>
+        <div class="memory-grid" id="memoryGrid"></div>
+        <div class="timeline"><span class="eyebrow">OUR LITTLE JOURNEY</span><h3>Class 5.1 Timeline</h3><div class="timeline-line"><div class="timeline-item"><i></i><b>Our First Day</b><small>Awal cerita kita</small></div><div class="timeline-item"><i></i><b>Class Activities</b><small>Belajar dan bertumbuh</small></div><div class="timeline-item"><i></i><b>Special Moments</b><small>Kenangan yang berharga</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="birthday">
+      <div class="section-heading"><div><span class="eyebrow">A DAY TO CELEBRATE YOU</span><h2>Birthday <span>Corner</span></h2><p>Let's make every classmate feel special!</p></div><span class="heading-doodle">🎂</span></div>
+      <div class="birthday-layout"><div class="birthday-list soft-card" id="birthdayList"></div><div class="birthday-note"><div class="cake">🎂</div><h3>Happy Birthday!</h3><p>Wishing our amazing classmates a year full of joy, growth, and beautiful memories.</p><span>♡ from Class 5.1</span></div></div>
+      <p class="small-note">Tanggal ulang tahun belum diberikan. Kamu bisa mengeditnya di <code>assets/data.json</code>.</p>
+    </section>
+
+    <section class="jar-section">
+      <div class="section-wrap jar-inner"><div class="jar-emoji">🫙</div><div><span class="eyebrow">A TINY TREASURE BOX</span><h2>Jar of <span>Memories</span></h2><p>Ambil satu pesan kecil untuk hari ini. Siapa tahu kamu membutuhkannya.</p><button class="btn btn-primary" id="openJar">Open a Memory ♡</button><p class="jar-message" id="jarMessage" aria-live="polite"></p></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="guestbook">
+      <div class="section-heading"><div><span class="eyebrow">LEAVE A LITTLE LOVE</span><h2>Digital <span>Guestbook</span></h2><p>Write a note, a wish, or a memory for our class.</p></div><span class="heading-doodle">💌</span></div>
+      <div class="guestbook-layout"><form class="guest-form soft-card" id="guestForm"><label for="guestName">Your name</label><input id="guestName" maxlength="30" placeholder="Nama kamu..." required><label for="guestMessage">Your message</label><textarea id="guestMessage" maxlength="240" rows="4" placeholder="Tulis pesan manis untuk Class 5.1..." required></textarea><div class="form-bottom"><small><span id="charCount">0</span>/240</small><button class="btn btn-primary" type="submit">Send Message ♡</button></div></form><div class="guest-messages" id="guestMessages"></div></div>
+      <p class="small-note">Pesan tersimpan di browser/perangkat yang digunakan (localStorage), belum tersinkron otomatis antar pengunjung.</p>
+    </section>
+
+    <section class="section-wrap section-block mood-block">
+      <div class="section-heading"><div><span class="eyebrow">HOW ARE WE FEELING TODAY?</span><h2>Mood of The <span>Class</span></h2><p>Pilih emoji yang menggambarkan suasana hatimu hari ini.</p></div><span class="heading-doodle">☀️</span></div>
+      <div class="mood-options" id="moodOptions"><button data-mood="Happy">😊<span>Happy</span></button><button data-mood="Excited">🤩<span>Excited</span></button><button data-mood="Calm">😌<span>Calm</span></button><button data-mood="Tired">😴<span>Tired</span></button><button data-mood="Busy">🤔<span>Busy</span></button><button data-mood="Grateful">🥰<span>Grateful</span></button></div>
+      <p class="mood-feedback" id="moodFeedback">Your mood matters. Choose one! ♡</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand">5.1 <span>♡</span></div><p>Made with love by Class 5.1</p><small>One Class, One Story, Nineteen Memories.</small><a href="#home">Back to top ↑</a></footer>
+
+  <div class="music-dock" id="musicDock"><div class="music-disc">♫</div><div class="music-meta"><b>Now Playing: Kita — Sheila On 7</b><small id="musicStatus">Music is paused</small></div><button id="playPause" aria-label="Play music">▶</button><button id="muteBtn" aria-label="Mute music">🔊</button><a class="music-source" href="https://www.youtube.com/watch?v=oOXba6xE41Q" target="_blank" rel="noopener" title="Buka video resmi">↗</a></div>
+  <div id="youtubePlayer" aria-hidden="true"></div>
+
+  <dialog id="profileDialog" class="profile-dialog"><button class="dialog-close" id="closeDialog" aria-label="Tutup">×</button><div id="profileContent"></div></dialog>
+  <script src="script.js"></script>
+  <script src="https://www.youtube.com/iframe_api" async></script>
+</body>
+</html>

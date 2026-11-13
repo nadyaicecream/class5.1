@@ -1,0 +1,438 @@
+{
+  "className": "Class 5.1",
+  "slogan": "One Class, One Story, Nineteen Memories.",
+  "announcement": "Jangan lupa membawa alat tulis lengkap dan menjaga kebersihan kelas, ya!",
+  "countdown": {
+    "label": "Class Special Day",
+    "date": "2027-06-01T00:00:00"
+  },
+  "quotes": [
+    "Good things take time, and we're doing great together.",
+    "Small moments become our favorite memories.",
+    "Different stories, one beautiful classroom.",
+    "Grow together, shine together.",
+    "The best memories are made with classmates."
+  ],
+  "cleaningSchedule": {
+    "Senin": [
+      "Putri",
+      "Shafiyyah",
+      "Bunga",
+      "Kartika"
+    ],
+    "Selasa": [
+      "Nadin",
+      "Ziya",
+      "Widiya",
+      "Khansa"
+    ],
+    "Rabu": [
+      "Salsa",
+      "Bintang",
+      "Hafiza",
+      "Nisa"
+    ],
+    "Kamis": [
+      "Luna",
+      "Nadya",
+      "Samsa",
+      "Nindy"
+    ],
+    "Jumat": [
+      "Donita",
+      "Rily",
+      "Manda",
+      "Haniffah"
+    ]
+  },
+  "subjects": {
+    "Senin": [
+      "Desain Grafis",
+      "Tafsir",
+      "Tarbiyah",
+      "Fisika",
+      "Bahasa Indonesia"
+    ],
+    "Selasa": [
+      "Kimia",
+      "Bahasa Inggris",
+      "Ushul Fiqh",
+      "Fiqh",
+      "Sosial Media Marketing"
+    ],
+    "Rabu": [
+      "Desain Grafis",
+      "Ekonomi",
+      "Sosial Media Marketing",
+      "Shorof",
+      "Biologi",
+      "Ulumul Hadist"
+    ],
+    "Kamis": [
+      "Desain Grafis",
+      "Nahwu",
+      "Bahasa Inggris",
+      "Grammar"
+    ],
+    "Jumat": [
+      "Matematika",
+      "Bahasa Indonesia",
+      "Sosial Media Marketing",
+      "Tarikh",
+      "Hadist"
+    ]
+  },
+  "members": [
+    {
+      "name": "Putri",
+      "nickname": "Putri",
+      "number": 1,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Shafiyyah",
+      "nickname": "Shafiyyah",
+      "number": 2,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Bunga",
+      "nickname": "Bunga",
+      "number": 3,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Kartika",
+      "nickname": "Kartika",
+      "number": 4,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Nadin",
+      "nickname": "Nadin",
+      "number": 5,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Ziya",
+      "nickname": "Ziya",
+      "number": 6,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Widiya",
+      "nickname": "Widiya",
+      "number": 7,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Khansa",
+      "nickname": "Khansa",
+      "number": 8,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Salsa",
+      "nickname": "Salsa",
+      "number": 9,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Bintang",
+      "nickname": "Bintang",
+      "number": 10,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Hafiza",
+      "nickname": "Hafiza",
+      "number": 11,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Nisa",
+      "nickname": "Nisa",
+      "number": 12,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Luna",
+      "nickname": "Luna",
+      "number": 13,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Nadya",
+      "nickname": "Nadya",
+      "number": 14,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Samsa",
+      "nickname": "Samsa",
+      "number": 15,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Nindy",
+      "nickname": "Nindy",
+      "number": 16,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Donita",
+      "nickname": "Donita",
+      "number": 17,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Rily",
+      "nickname": "Rily",
+      "number": 18,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Manda",
+      "nickname": "Manda",
+      "number": 19,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    },
+    {
+      "name": "Haniffah",
+      "nickname": "Haniffah",
+      "number": 20,
+      "motto": "Tulis motto kamu di sini.",
+      "hobby": "Belum diisi",
+      "favoriteFood": "Belum diisi",
+      "favoriteDrink": "Belum diisi",
+      "favoriteColor": "Belum diisi",
+      "funFact": "Tambahkan fun fact kamu.",
+      "dream": "Belum diisi",
+      "quote": "Keep growing and glowing!"
+    }
+  ],
+  "birthdays": [
+    {
+      "name": "Putri",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Shafiyyah",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Bunga",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Kartika",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Nadin",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Ziya",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Widiya",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Khansa",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Salsa",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Bintang",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Hafiza",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Nisa",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Luna",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Nadya",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Samsa",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Nindy",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Donita",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Rily",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Manda",
+      "date": "Tanggal belum diisi"
+    },
+    {
+      "name": "Haniffah",
+      "date": "Tanggal belum diisi"
+    }
+  ],
+  "memoryCategories": [
+    "Our First Day",
+    "Class Activities",
+    "Random Moments",
+    "Special Events",
+    "Behind The Scenes",
+    "Photo of The Month",
+    "Video Memories"
+  ]
+}
